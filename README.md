@@ -19,14 +19,14 @@
 * Whenever choices with equal considerations, prefer to consider vertices in lexicographic ordering.
 
 
-## Output format
+### Output format
 * If there is any negative weight cycle in graph, print -1.
 * Else print NxN shortest path matrix.
 * Print 999999 if the vertex is not reachable from the source vertex considered.
 
-## Instructions to run
-<b>First compile the code using g++ main.cpp</b>
-* ./a.out 1  ----> <b>Array Heap</b>
-* ./a.out 2  ----> <b>Binary Heap</b>
-* ./a.out 3  ----> <b>Binomial Heap</b>
-* ./a.out 4  ----> <b>Fibonacci Heap</b>
+### Instructions to run
+<b>First compile the code using ``g++ main.cpp``</b>
+* ``./a.out 1``  ----> <b>Array Heap</b>
+* ``./a.out 2``  ----> <b>Binary Heap</b>
+* ``./a.out 3``  ----> <b>Binomial Heap</b>
+* ``./a.out 4``  ----> <b>Fibonacci Heap</b>

@@ -4,19 +4,16 @@
 
 
 
-
-<!-- ABOUT THE PROJECT -->
 ## About The Project
-* <h4><a href="https://en.wikipedia.org/wiki/Johnson%27s_algorithm">About the algorithm</a></h4>
+* <h3><a href="https://en.wikipedia.org/wiki/Johnson%27s_algorithm">About the algorithm</a></h3>
 
 ### Input format
 
 * First line: Number of Test Cases <b>T</b>
-For each test case,
-* First line/row indicate N D (single space separated); where,
-1. <b>N</b> is number of vertices in directed graph where vertices are labelled 1 to N (not 0 indexing)
-2. <b>D</b> specifies whether Directed Graph or undirected graph (D=0 means undirected, else it is directed)
-3. This is then followed by N lines each containing N integers (basically NxN Adjacency or say weight matrix representation of the graph of that test case).
+* For each test case, First line/row indicate N D (single space separated); where,
+     1. <b>N</b> is number of vertices in directed graph where vertices are labelled 1 to N (not 0 indexing)
+     2. <b>D</b> specifies whether Directed Graph or undirected graph (D=0 means undirected, else it is directed)
+     3. This is then followed by N lines each containing N integers (basically NxN Adjacency or say weight matrix representation of the graph of that test case).
 
 ### Assumptions
 * There are no self-loops in the graph
@@ -37,4 +34,4 @@ Print 999999 if the vertex is not reachable from the source vertex considered.
 * ./a.out 2
 * ./a.out 3
 * ./a.out 4 OR ./a.out
-1: Arrays based, 2: binary heaps, 3: binomial heaps and 4: Fibonacci heaps. Default choice: 4 
+1: Arrays Heap, 2: binary Heap, 3: Binomial Heap, 4: Fibonacci Heap, Default: Fibonacci Heap

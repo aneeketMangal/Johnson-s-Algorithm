@@ -1,10 +1,6 @@
 
-  <h3 align="center">Johnson's Algorithm</h3>
-
-
-
-
-## About The Project
+  <h1 align="center">Johnson's Algorithm</h1>
+  
 * <h3><a href="https://en.wikipedia.org/wiki/Johnson%27s_algorithm">About the algorithm</a></h3>
 
 ### Input format
@@ -26,12 +22,11 @@
 ## Output format
 * If there is any negative weight cycle in graph, print -1.
 * Else print NxN shortest path matrix.
-Print 999999 if the vertex is not reachable from the source vertex considered.
+* Print 999999 if the vertex is not reachable from the source vertex considered.
 
 ## Instructions to run
 <b>First compile the code using g++ main.cpp</b>
-* ./a.out 1
-* ./a.out 2
-* ./a.out 3
-* ./a.out 4 OR ./a.out
-1: Arrays Heap, 2: binary Heap, 3: Binomial Heap, 4: Fibonacci Heap, Default: Fibonacci Heap
+* ./a.out 1  ----> <b>Array Heap</b>
+* ./a.out 2  ----> <b>Binary Heap</b>
+* ./a.out 3  ----> <b>Binomial Heap</b>
+* ./a.out 4  ----> <b>Fibonacci Heap</b>

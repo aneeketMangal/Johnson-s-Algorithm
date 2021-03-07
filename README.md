@@ -6,10 +6,10 @@
 ### Input format
 
 * First line: Number of Test Cases <b>T</b>
-* For each test case, First line/row indicate N D (single space separated); where,
-     1. <b>N</b> is number of vertices in directed graph where vertices are labelled 1 to N (not 0 indexing)
-     2. <b>D</b> specifies whether Directed Graph or undirected graph (D=0 means undirected, else it is directed)
-     3. This is then followed by N lines each containing N integers (basically NxN Adjacency or say weight matrix representation of the graph of that test case).
+* For each test case, First line/row indicate <b>N D</b> (single space separated); where,
+     1. <b>N</b> is number of vertices in directed graph where vertices are labelled <b>1</b> to <b>N</b> (not 0 indexing)
+     2. <b>D</b> specifies whether Directed Graph or undirected graph (D == 0 means undirected, else it is directed)
+     3. This is then followed by <b>N</b> lines each containing  <b>N</b> integers (basically weight matrix representation of the graph).
 
 ### Assumptions
 * There are no self-loops in the graph
